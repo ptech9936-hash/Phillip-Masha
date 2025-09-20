@@ -1,0 +1,86 @@
+/* Button hover effects */
+.btn-primary:hover, .btn-primary:focus {
+  background-color: #0056b3 !important;
+  border-color: #0056b3 !important;
+  color: #fff !important;
+}
+.btn-outline-dark:hover, .btn-outline-dark:focus {
+  background-color: #333 !important;
+  color: #fff !important;
+  border-color: #333 !important;
+}
+
+/* style.css - Custom styles for Phillip Kifalu Portfolio */
+
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #ccc;
+}
+
+:root {
+  --main-accent: #ccc;
+  --main-dark: #333;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 1.7rem;
+  color: #fff !important;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+  color: var(--main-dark) !important;
+  font-weight: 600;
+}
+
+#home {
+  background: linear-gradient(135deg, #ccc 0%, #e6e6e6 100%);
+}
+
+#home h1 {
+  color: #22223b;
+  margin-bottom: 0.5rem;
+}
+
+#home h3 {
+  color: var(--main-dark);
+  margin-bottom: 1.5rem;
+}
+
+#home .mt-4.mb-3 {
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
+}
+
+#home a[aria-label] {
+  transition: color 0.2s, transform 0.2s;
+  color: var(--main-dark);
+}
+
+#home a[aria-label]:hover {
+  color: var(--main-dark) !important;
+}
+
+#home .social-links a {
+  transition: transform 0.3s cubic-bezier(.4,2,.6,1), color 0.2s;
+}
+
+#home .social-links a:hover {
+  transform: scale(1.2) translateY(-4px);
+  color: var(--main-dark) !important;
+}
+
+#home img {
+  border: 6px solid #fff;
+  box-shadow: 0 4px 24px rgba(51, 51, 51, 0.15);
+  background: #ccc;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+}
