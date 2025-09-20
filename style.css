@@ -22,7 +22,9 @@ body {
   --main-accent: #ccc;
   --main-dark: #333;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 .navbar-brand {
   font-weight: 700;
   letter-spacing: 1px;
@@ -84,3 +86,4 @@ footer {
   font-size: 1rem;
   letter-spacing: 0.5px;
 }
+
